@@ -24,7 +24,7 @@ export class ReactiveFormDemoComponent implements OnInit {
   get rf() { return this.registrationForm.controls; }   
 
   register() {
-    console.log(this.registrationForm.value);
+   // console.log(this.registrationForm.value);
     
   }
 
