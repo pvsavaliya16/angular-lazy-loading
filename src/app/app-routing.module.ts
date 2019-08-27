@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TournamentListComponent } from './tournaments/tournament-list/tournament-list.component';
 import { ClubListComponent } from './clubs/club-list/club-list.component';
+import { ReactiveFormDemoComponent } from './reactive-form-demo/reactive-form-demo.component';
 
 const routes: Routes = [
   // {
@@ -24,6 +25,10 @@ const routes: Routes = [
     path: '',
     redirectTo: '',
     pathMatch: 'full'
+  },
+  {
+    path:'register',
+    component: ReactiveFormDemoComponent
   }
 ];
 
